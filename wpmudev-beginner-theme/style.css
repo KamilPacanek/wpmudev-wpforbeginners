@@ -1,0 +1,49 @@
+/*
+Theme Name: wpmudev Beginner Theme
+Theme URI: https://wpmudev-beginner.theme
+Author: Kamil Pacanek
+Author URI: https://kpacanek.net
+Description: wpmudev Beginner Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpmudev-beginner-theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover{
+  color: black;
+}
+
+body{
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#site-content{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#site-header{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight bold;
+}
+
+#site-footer{
+  font-size: 90%;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
