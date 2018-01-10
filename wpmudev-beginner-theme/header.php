@@ -10,7 +10,7 @@
 <body <?php body_class(); ?>>
 
 <div id="site-header">
-	<h1><?php bloginfo('title') ?></h1>
+	<h1><a href='<?php echo home_url(); ?>'><?php bloginfo('title') ?></a></h1>
 </div>
 
 <div id='site-container'>
