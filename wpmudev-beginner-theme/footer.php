@@ -1,4 +1,8 @@
-</div> <!-- site content -->
+  </div> <!-- site content -->
+
+  <?php get_sidebar(); ?>
+  
+</div> <!-- site container -->
 
 <div id='site-footer'>
 <p>&copy; Custom Theme by Kamil Pacanek for

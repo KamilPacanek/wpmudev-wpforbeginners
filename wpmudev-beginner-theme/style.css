@@ -23,14 +23,6 @@ a:hover{
 
 body{
   font-family: "Courier New", Courier, monospace;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#site-content{
-  margin-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 #site-header{
@@ -38,6 +30,52 @@ body{
   margin-top: 5%;
   margin-bottom: 5%;
   font-weight bold;
+}
+
+#site-container{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#site-content{
+  margin-bottom: 5%;
+  max-width: 70%;
+  padding-left: 5%;
+  float: left;
+}
+
+#site-content .content{
+  text-align: justify;
+}
+
+#site-content .post-meta{
+  font-size: 80%;
+}
+
+#site-content .post-title{
+  margin-bottom: 0;
+}
+
+#site-sidebar{
+  float: right;
+  max-width: 25%;
+  width: 25%;
+}
+
+#site-sidebar ul{
+  list-style: none;
+}
+
+#site-sidebar #searchform .screen-reader-text::after{
+  content: '\A';
+  white-space: pre;
+}
+
+.widget.widget_recent_entries span.post-date::before{
+  content:'[';
+}
+.widget.widget_recent_entries span.post-date::after{
+  content:']';
 }
 
 #site-footer{
