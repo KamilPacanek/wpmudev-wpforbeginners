@@ -16,4 +16,6 @@ function mat_widget_areas() {
 				'after_title'   => '</h3>',
     ));
 }
+
+add_theme_support( 'post-thumbnails' );
 ?>

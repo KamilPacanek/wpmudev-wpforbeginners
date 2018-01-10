@@ -9,3 +9,7 @@
 <div class="content">
 	<?php the_content() ?>
 </div>
+
+<div class="featured-image">
+  <?php the_post_thumbnail() ?>
+</div>
