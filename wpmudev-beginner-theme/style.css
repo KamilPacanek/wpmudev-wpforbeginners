@@ -32,6 +32,16 @@ body{
   font-weight bold;
 }
 
+#site-header .menu{
+  list-style: none;
+}
+
+#site-header .menu li{
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 110%;
+}
+
 #site-container{
   margin-left: 5%;
   margin-right: 5%;

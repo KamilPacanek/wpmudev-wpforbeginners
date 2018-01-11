@@ -17,5 +17,9 @@ function mat_widget_areas() {
     ));
 }
 
+register_nav_menus( array(
+	'header-menu' => 'Header Menu',
+));
+
 add_theme_support( 'post-thumbnails' );
 ?>

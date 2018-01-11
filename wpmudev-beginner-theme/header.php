@@ -11,6 +11,7 @@
 
 <div id="site-header">
 	<h1><a href='<?php echo home_url(); ?>'><?php bloginfo('title') ?></a></h1>
+		<?php wp_nav_menu( array( "theme_location" => 'header-menu' ) ) ?>
 </div>
 
 <div id='site-container'>
