@@ -71,6 +71,22 @@ body{
   margin: 0 auto;
 }
 
+.comments-section{
+  margin-top: 50px;
+}
+
+.comments-section ol, ul{
+  list-style: none;
+}
+
+.comments-section ol .children{
+  margin-top: 10px;
+}
+
+.comments-section .comment-form-comment label{
+  display: none;
+}
+
 #site-sidebar{
   float: right;
   max-width: 25%;

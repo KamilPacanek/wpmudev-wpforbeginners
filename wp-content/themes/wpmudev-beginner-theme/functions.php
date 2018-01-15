@@ -22,4 +22,5 @@ register_nav_menus( array(
 ));
 
 add_theme_support( 'post-thumbnails' );
+
 ?>

@@ -13,3 +13,7 @@
 <div class="featured-image">
   <?php the_post_thumbnail() ?>
 </div>
+
+<div class="comments-section">
+  <?php comments_template() ?>
+</div>
